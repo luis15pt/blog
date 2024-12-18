@@ -86,6 +86,7 @@ To validate your export template, simply navigate to `http://your-netbox-instanc
 Now, here's something absolutely vital - as vital as remembering to defragment your hard drive or keeping your emergency mousepads dry: You *must* use the `/api/` path in your URL. For example:
 
 ✅ CORRECT: `http://your-netbox-instance/api/dcim/devices/?export=prometheus`
+
 ❌ WRONG: `http://your-netbox-instance/dcim/devices/?export=prometheus`
 
 Missing that `/api/` is like trying to send an email without the @ symbol - technically possible to type, but absolutely useless in practice. I learned this the hard way after spending three hours debugging, only to realize I'd forgotten to put on my glasses.
