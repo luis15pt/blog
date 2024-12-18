@@ -81,7 +81,16 @@ If you're feeling adventurous (and why wouldn't you be?), here's a more detailed
 
 ## Testing Your Configuration
 
-To validate your export template, simply navigate to `http://your-netbox-instance/api/virtualization/virtual-machines/?export=prometheus` (make sure to include the full URL with 'http://' - it's like including the area code when making a phone call, absolutely crucial). If it works, you should see a nice JSON output. If it doesn't work, well... have you tried turning it off and on again?
+To validate your export template, simply navigate to `http://your-netbox-instance/api/virtualization/virtual-machines/?export=prometheus` (make sure to include the full URL with 'http://' - it's like including the area code when making a phone call, absolutely crucial). 
+
+Now, here's something absolutely vital - as vital as remembering to defragment your hard drive or keeping your emergency mousepads dry: You *must* use the `/api/` path in your URL. For example:
+
+✅ CORRECT: `http://your-netbox-instance/api/dcim/devices/?export=prometheus`
+❌ WRONG: `http://your-netbox-instance/dcim/devices/?export=prometheus`
+
+Missing that `/api/` is like trying to send an email without the @ symbol - technically possible to type, but absolutely useless in practice. I learned this the hard way after spending three hours debugging, only to realize I'd forgotten to put on my glasses.
+
+If it works, you should see a nice JSON output. If it doesn't work, well... have you tried turning it off and on again?
 
 ## Conclusion
 
