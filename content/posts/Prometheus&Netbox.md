@@ -11,6 +11,15 @@ Hello there! Maurice Moss speaking. Today I'm quite excited to share something r
 
 * Netbox version 3.5.0 or newer (don't try it with older versions, trust me - it's like trying to run Windows Vista on a ZX Spectrum)
 * Prometheus version 2.28.0+ (the plus is important, like remembering to wear your emergency socks)
+* Node exporter or similar running on your target machines (I'll explain why in a moment, like I had to explain to Jen why computers need fans)
+
+## Why Would You Want This? (A Very Good Question!)
+
+Now, let me explain why this integration is absolutely brilliant. You see, normally with Prometheus, you'd have to manually declare all your targets in the configuration - writing them down like Roy writes down his lunch orders. But with this Netbox integration, it becomes dynamic! 
+
+Think of it like this: whenever you add a new server to your infrastructure, you document it in Netbox (as any sensible person would), and BOOM! - Prometheus automatically starts monitoring it. No need to restart Prometheus, no need to update configurations, it just works! It's like magic, except it's actually carefully structured API calls and service discovery.
+
+But here's the catch (there's always a catch, like that time I thought I found a free iPhone but it was actually just a very convincing drawing): you need to have the appropriate exporter (like node_exporter) already running on your target machines. This integration doesn't magically make your machines exportable - it just helps Prometheus find them automatically. It's perfect if you already have a monitoring setup but are tired of manually updating your Prometheus configuration every time you add a new machine.
 
 ## Creating an Export Template (The Fun Part!)
 
@@ -72,7 +81,7 @@ If you're feeling adventurous (and why wouldn't you be?), here's a more detailed
 
 ## Testing Your Configuration
 
-To validate your export template, simply navigate to `/api/virtualization/virtual-machines/?export=prometheus`. If it works, you should see a nice JSON output. If it doesn't work, well... have you tried turning it off and on again?
+To validate your export template, simply navigate to `http://your-netbox-instance/api/virtualization/virtual-machines/?export=prometheus` (make sure to include the full URL with 'http://' - it's like including the area code when making a phone call, absolutely crucial). If it works, you should see a nice JSON output. If it doesn't work, well... have you tried turning it off and on again?
 
 ## Conclusion
 
