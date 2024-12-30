@@ -1,6 +1,6 @@
 ---
 title: "Did You See That Ludicrous Integration Last Night? Prometheus and Netbox"
-date: 2024-12-18
+date: 2024-12-30
 author: "Luis Sarabando"
 tags: ["monitoring", "prometheus", "netbox", "infrastructure"]
 ---
