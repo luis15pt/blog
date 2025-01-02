@@ -89,6 +89,8 @@ And there you have it! A fully automated filament management system that would m
 
 If you need me, I'll be in my happy place, watching my filament levels update automatically every 120000 milliseconds. It's better than that time I convinced Jen that the Internet was in a small black box!
 
+*0118 999 881 999 119 725... 3* would have been a terrible update interval, by the way.
+
 # References
 https://github.com/Rdiger-36/bambulab-ams-spoolman-filamentstatus
 
@@ -97,4 +99,3 @@ https://github.com/donkie/spoolman
 https://github.com/Donkie/SpoolmanDB
 
 
-*0118 999 881 999 119 725... 3* would have been a terrible update interval, by the way.
