@@ -91,7 +91,9 @@ If you need me, I'll be in my happy place, watching my filament levels update au
 
 # References
 https://github.com/Rdiger-36/bambulab-ams-spoolman-filamentstatus
+
 https://github.com/donkie/spoolman
+
 https://github.com/Donkie/SpoolmanDB
 
 
