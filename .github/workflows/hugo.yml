@@ -21,9 +21,13 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true
           
       - name: Build
+        run: hugo --minify
+        
+      - name: Deploy to local
         run: |
-          sudo cp -r public/* /home/hugo/blog/public/
-          sudo chown -R www-data:www-data /home/hugo/blog/public/
-          hugo --minify
+          rm -rf /home/hugo/blog/public/*
+          cp -r public/* /home/hugo/blog/public/
+          chown -R www-data:www-data /home/hugo/blog/public/
