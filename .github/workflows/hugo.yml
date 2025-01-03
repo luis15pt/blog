@@ -28,4 +28,4 @@ jobs:
       - name: Deploy to local
         run: |
           sudo cp -r public/* /home/hugo/blog/public/
-          sudo chown -R www-data:www-data /home/hugo/blog/public/          rsync -av --delete public/ /home/hugo/blog/public/
+          sudo chown -R www-data:www-data /home/hugo/blog/public/
