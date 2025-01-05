@@ -1,6 +1,6 @@
 baseURL: 'http://blog.ruanovanetworks.com'
 languageCode: 'en-us'
-title: 'My Homelab Blog'
+title: '🏠 Luis Sarabando'
 theme: 'PaperMod'
 
 params:
@@ -10,10 +10,22 @@ params:
   ShowCodeCopyButtons: true
   ShowBreadCrumbs: true
   
-  homeInfoParams:
-    Title: "Welcome to My Homelab Blog"
-    Content: "Sharing my homelab journey and tech experiments"
-  
+  profileMode:
+    enabled: true
+    title: "👋 Hi, I'm Luis" 
+    subtitle: "🔧 Technical Operations Specialist | 🖥️ GPU Infrastructure | 🚀 Automation"
+    imageUrl: "/avatar.jpg"
+    imageTitle: "Luis Sarabando"
+    buttons:
+      - name: "📝 Posts"
+        url: "/posts"
+      - name: "🏷️ Tags"
+        url: "/tags"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/luis15pt"
+
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -30,16 +42,19 @@ params:
 menu:
   main:
     - identifier: posts
-      name: Posts
+      name: "📝 Posts"
       url: /posts/
       weight: 10
     - identifier: about
-      name: About
+      name: "👤 About"
       url: /about
-      weight: 10
-    - name: Search
-      url: /search/
       weight: 20
-    - name: Archives
-      url: /archives/
+    - name: "🔍 Search"
+      url: /search/
       weight: 30
+    - name: "📚 Archives"
+      url: /archives/
+      weight: 40
+    - name: "🏷️ Tags"
+      url: /tags/
+      weight: 50
