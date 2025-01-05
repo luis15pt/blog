@@ -1,6 +1,6 @@
 ---
 title: "Essential Prometheus Tricks That Will Save Your Day"
-date: 2024-01-04
+date: 2025-01-04
 author: "Luis Sarabando"
 tags: ["monitoring", "prometheus", "devops", "tips"]
 ---
