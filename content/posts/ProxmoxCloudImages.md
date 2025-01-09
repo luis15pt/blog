@@ -10,8 +10,8 @@ Hello there! Today I'm excited to share a guide on using cloud images in Proxmox
 ## What We're Working With
 
 Before we dive in, here's what we'll be using in this guide:
-* Proxmox version 7.0-11 (the star of our show)
-* Ubuntu 20.04 (our trusty workbench)
+* Proxmox version 8.3.0 (the star of our show)
+* Ubuntu 22.04 (our trusty workbench)
 * A cup of coffee (optional but recommended)
 
 ## Image Prep: Getting Everything Ready
@@ -39,7 +39,7 @@ sudo virt-customize -a ubuntu-22.04-server-cloudimg-amd64.img --install qemu-gue
 Time to move our prepared image to its new home:
 
 ```bash
-scp ubuntu-20.04-server-cloudimg-amd64.img root@proxmox:/tmp/
+scp ubuntu-22.04-server-cloudimg-amd64.img root@proxmox:/tmp/
 ```
 
 ## The Proxmox Dance: Setting Up Our Template
@@ -113,7 +113,7 @@ qm set 9022 --ipconfig0 ip=192.168.8.212/24,gw=192.168.8.254
 Now for the moment of truth - let's create a VM from our template:
 
 ```bash
-qm clone 9001 999 \
+qm clone 9022 999 \
   --name ubuntu-test \
   --full \
   --storage local-zfs
