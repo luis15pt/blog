@@ -77,11 +77,9 @@ If you use the `:dev` tag instead of `:latest`, the system will automatically ad
 
 ## Conclusion
 
-![Spoolman Dashboard](/images/spoolman/dashboard.png)
+![Spoolman Dashboard](/images/spoolman-dashboard.png)
 
 Exactly like how Roy's life was changed by the IT Crowd, your life will be changed by this filament management system. It's like having a personal assistant that knows exactly how much filament you have left and where it's stored.
-
-![Spoolman Dashboard](/images/spoolman/spools.png)
 
 And there you have it! A fully automated filament management system that would make even Douglas proud. No more manually tracking spools like some kind of barbarian from the seventh floor!
 
