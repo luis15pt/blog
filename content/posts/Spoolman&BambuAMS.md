@@ -71,9 +71,6 @@ You'll need three things from your printer:
 
 Finding these is like a treasure hunt, but with less pirates and more network settings menus.
 
-## The Magic of the Dev Tag
-
-If you use the `:dev` tag instead of `:latest`, the system will automatically add spools and filaments from your AMS unit into Spoolman. It's like having a tiny, very efficient Richmond organizing your filament collection!
 
 ## Conclusion
 
