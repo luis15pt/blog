@@ -90,6 +90,9 @@ Enable our friendly neighborhood guest agent:
 qm set 9022 --agent enabled=1
 ```
 
+![Proxmox Hardware](/images/proxmox-cloudinit-hardware.png)
+
+
 Time to make this VM a template (it's graduation day!):
 
 ```bash
@@ -107,6 +110,8 @@ And for testing purposes, we'll assign it a static IP:
 ```bash
 qm set 9022 --ipconfig0 ip=192.168.8.212/24,gw=192.168.8.254
 ```
+
+![Proxmox Hardware](/images/proxmox-cloudinit.png)
 
 ## Creating Your First Cloud-Init VM
 
