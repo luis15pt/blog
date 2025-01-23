@@ -83,6 +83,11 @@ And there you have it! A fully functional Cloudflare monitoring dashboard that's
 
 ![Cloudflare Dashboard Import](/images/cloudflare-dashboard.png)
 
+If you need Zone Analytics, you can use a diffrent dashboard ID: 21368 and use the same source when importing the dashboard. Dont forget to change the Zone ID in the dashboard, this one calls it ZoneTag
+
+![Cloudflare Dashboard Import](/images/cloudflare-dashboard-zoneanalytics.png)
+
+
 Remember: The best monitoring system is like Richmond - always there when you need it, even if you forget it exists sometimes.
 
 # References
