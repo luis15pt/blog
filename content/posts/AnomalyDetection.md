@@ -29,9 +29,15 @@ stddev_over_time(your_metric[1d])
 ## What Do The Numbers Mean, Moss?
 Let me explain this like I explained to Jen why computers need fans:
 
-- Between -1 and +1: Everything's normal (like Roy's morning mood)
-- Between -2 and +2: Slightly unusual (like Jen understanding a tech reference)
-- Beyond -3 or +3: Something's definitely wrong (like Richmond leaving the server room)
+- Between -1 and +1: Everything's normal (68% of all values fall here, like Roy's morning mood)
+- Between -2 and +2: Slightly unusual (95% of all values fall here, like Jen understanding a tech reference)
+- Beyond -3 or +3: Something's definitely wrong (99.7% of values should be within this range, so anything beyond is like Richmond leaving the server room)
+
+For example:
+- A value of 1.5 means you're seeing a metric that's higher than 86% of normal values
+- A value of -2.1 means you're seeing a metric that's lower than 98% of normal values
+- A value of 3.2 means you're seeing something that happens less than 0.1% of the time
+
 
 ## Real World Examples (That Actually Work!)
 Response Times
