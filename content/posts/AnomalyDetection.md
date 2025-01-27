@@ -42,7 +42,7 @@ For example:
 ## Real World Examples (That Actually Work!)
 Response Times
 
-```prom
+```promql
 (
   avg_over_time(http_request_duration_seconds[$__rate_interval])
   - 
@@ -53,7 +53,7 @@ stddev_over_time(http_request_duration_seconds[1d])
 ```
 
 Queue Lengths
-```prom
+```promql
 (
   avg_over_time(rabbitmq_queue_messages[$__rate_interval])
   -
