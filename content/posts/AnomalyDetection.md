@@ -1,6 +1,6 @@
 ---
 title: "Standard Deviations and Emergency Protocols: A Guide to Smarter Alerts"
-date: 2024-01-19
+date: 2025-01-19
 author: "Luis Sarabando"
 tags: ["monitoring", "prometheus", "grafana", "alerts", "anomaly-detection"]
 ---

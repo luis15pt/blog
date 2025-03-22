@@ -1,6 +1,6 @@
 ---
 title: "Cloudflare Dashboard for Grafana"
-date: 2024-01-23
+date: 2025-01-23
 author: "Luis Sarabando"
 tags: ["grafana", "cloudflare", "monitoring", "dashboard"]
 ---

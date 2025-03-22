@@ -1,6 +1,6 @@
 ---
 title: "Cloud Images in Proxmox: A Guide to VM Templates with Cloud-Init"
-date: 2024-01-09
+date: 2025-01-09
 author: "Luis Sarabando"
 tags: ["proxmox", "virtualization", "cloud-init", "infrastructure"]
 ---
