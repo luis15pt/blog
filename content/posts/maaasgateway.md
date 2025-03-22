@@ -1,6 +1,6 @@
 ---
 title: "MAAS Default Gateway Configuration: When Two Networks Play Tug-of-War"
-date: 2024-05-15
+date: 2024-02-22
 author: "Luis Sarabando"
 tags: ["maas", "networking", "infrastructure", "automation"]
 ---
@@ -53,7 +53,3 @@ And there you have it! A perfectly configured default gateway that's almost as s
 Remember, with great networking comes great responsibility, and with MAAS comes... well, occasionally confusing interface choices.
 
 If you need me, I'll be in my office, making sure all my default gateways are properly configured. Not because I'm obsessed, just because it's the right thing to do.
-
----
-
-P.S. If anyone needs help with their MAAS configuration, remember: Have you tried setting the default gateway and then turning it off and on again?
