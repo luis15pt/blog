@@ -1,6 +1,6 @@
 ---
 title: "MAAS Default Gateway Configuration: When Two Networks Play Tug-of-War"
-date: 2024-02-22
+date: 2025-02-22
 author: "Luis Sarabando"
 tags: ["maas", "networking", "infrastructure", "automation"]
 ---
