@@ -1,6 +1,6 @@
 ---
 title: "Why Your Enterprise SAS/SATA SSD Won't Power Up (And How to Fix It)"
-date: 2025-01-03
+date: 2026-01-03
 author: "Luis Sarabando"
 tags: ["hardware", "ssd", "infrastructure", "troubleshooting", "tips"]
 ---
