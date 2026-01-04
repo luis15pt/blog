@@ -22,5 +22,4 @@ jobs:
         run: |
           sudo rm -rf /home/hugo/blog/public/*
           sudo cp -r public/* /home/hugo/blog/public/
-          sudo chown -R ubuntu:ubuntu /home/hugo/blog/public/
-          hugo --minify
+          sudo chown -R www-data:www-data /home/hugo/blog/public/
