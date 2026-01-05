@@ -5,8 +5,6 @@ author: "Luis Sarabando"
 tags: ["voip", "vodafone", "asterisk", "sip", "networking", "telephony", "pbx", "portugal"]
 ---
 
-# Vodafone VoIP: The Secret They Don't Want You to Know (But We Found Anyway)
-
 *"What's your password?" - Jen, probably trying to configure VoIP*
 
 ## The Problem: Vodafone's VoIP Black Box (It's Not Actually Black, But It Might As Well Be)
