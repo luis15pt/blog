@@ -1,6 +1,6 @@
 ---
 title: "Defeating Bufferbloat: Or How I Learned to Stop Worrying and Love QoS"
-date: 2025-02-15
+date: 2025-04-15
 author: "Luis Sarabando"
 tags: ["networking", "qos", "bufferbloat", "pfsense", "performance", "latency", "router"]
 ---
