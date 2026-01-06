@@ -25,7 +25,7 @@ When lots of people (data packets) try to use the hallway at once, the router sa
 
 ## How to Test for Bufferbloat (The Moment of Truth)
 
-Before we fix anything, let's see if you actually have this problem. Head over to [Waveform's Bufferbloat Test](https://www.waveform.com/tools/bufferbloat) or [DSLReports Speed Test](http://www.dslreports.com/speedtest).
+Before we fix anything, let's see if you actually have this problem. Head over to [Waveform's Bufferbloat Test](https://www.waveform.com/tools/bufferbloat).
 
 Here's what the test does (it's quite clever, actually):
 
@@ -250,7 +250,6 @@ Now go forth and enjoy your bloat-free internet! And if anyone asks how you fixe
 ## Further Reading (For the Keen Students)
 
 - [Bufferbloat.net](https://www.bufferbloat.net/) - The canonical source for bufferbloat information
-- [DSLReports Speed Test](http://www.dslreports.com/speedtest) - Another excellent bufferbloat test
 - [pfSense Traffic Shaping Guide](https://thehomelabber.com/blog/pfsense-traffic-shaping-and-buffer-bloat/) - Detailed pfSense setup
 
 ---
